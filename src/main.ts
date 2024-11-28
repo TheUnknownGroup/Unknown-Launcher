@@ -1,7 +1,7 @@
 let signIn = document.getElementById("y");
-let signup = document.getElementById("n");
+let signUp = document.getElementById("n");
 
 /* @ts-ignore */
-signin.addEventListener("click", () => {
+signIn.addEventListener("click", () => {
 
 })
