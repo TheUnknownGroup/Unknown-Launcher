@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #blu {
   background-size: cover;
   background: rgba(0, 0, 0, 20%) url("./assets/background.png") no-repeat;
@@ -52,17 +57,19 @@
   padding: 60px 0 0 60px;
 }
 
-#icon {
+/* #icon {
   box-shadow: 1px 1px 15px #000, 1px 1px 15px #000;
-}
+}*/
 
 .box {
-  border: 1px solid #000;
+  border: 1px solid inherit;
   border-radius: 25px;
-  width: 50%;
+  width: 44.80vw;
   padding: 15vh 0 28vh 0;
-  background-color: rgba(0, 0, 0, 40%)
+  background-color: rgba(34, 33, 33, 50%);
+  box-shadow: 1px 1px 10px rgb(18, 14, 14);
 }
+
 
 .container {
   padding-top: 3vh;
@@ -75,7 +82,18 @@
 
 .column {
   float: left;
-  padding: 5px;
+  padding: 10px 0 0 10px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #dee3f7;
+}
+
+#linkDiv1 {
+  padding-left: 15px;
+  padding-top: 14px;
+  font-size: 19px;
 }
 
 .row::after {

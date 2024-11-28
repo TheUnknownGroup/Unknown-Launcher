@@ -1,7 +1,7 @@
-let yes = document.getElementById("y");
-let no = document.getElementById("n");
+let signin = document.getElementById("y");
+let signup = document.getElementById("n");
 
 /* @ts-ignore */
-yes.addEventListener("click", () => {
+signin.addEventListener("click", () => {
 
 })
