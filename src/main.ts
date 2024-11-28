@@ -1,4 +1,4 @@
-let signin = document.getElementById("y");
+let signIn = document.getElementById("y");
 let signup = document.getElementById("n");
 
 /* @ts-ignore */
