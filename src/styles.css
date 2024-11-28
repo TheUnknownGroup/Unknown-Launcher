@@ -1,6 +1,6 @@
 #blu {
-  background: url("./assets/background.png") no-repeat, transparent;
   background-size: cover;
+  background: rgba(0, 0, 0, 20%) url("./assets/background.png") no-repeat;
   color: #dee3f7;
   height: auto;
   width: auto;
@@ -58,15 +58,28 @@
 
 .box {
   border: 1px solid #000;
+  border-radius: 25px;
   width: 50%;
-  padding: 0 0 30vh 0;
+  padding: 15vh 0 28vh 0;
+  background-color: rgba(0, 0, 0, 40%)
 }
 
 .container {
-  padding-top: 11vh;
+  padding-top: 3vh;
   padding-left: 10vh;
   justify-items: left;
   vertical-align: middle;
 }
 
-/* Please make the maximizable set to false!! (note for @devonk15)*/
+/* Please make the maximizable set to false!! (note for @devonk15) */
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
