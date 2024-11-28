@@ -1,13 +1,19 @@
 #blu {
-  background-color: #161b30;
+  background: url("./assets/background.png") no-repeat, transparent;
+  background-size: cover;
+  color: #dee3f7;
   height: auto;
   width: auto;
 }
 
 #welcome {
   font-size: 30px;
-  color: #dee3f7;
-  padding-top: 30vh;
+  text-shadow: 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000;
+}
+
+#q1 {
+  font-size: 22px;
+  text-shadow: 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000, 1px 1px 10px #000;
 }
 
 .lexend-reg {
@@ -21,3 +27,46 @@
   text-align: center;
   vertical-align: middle;
 }
+
+.prevent {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#y, #n{
+  font-size: 20px;
+  border: 2px solid inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px 15px;
+  background-color: #222222;
+  box-shadow: 1px 1px 15px #000, 1px 1px 15px #000;
+  text-decoration: none;
+  color: #dee3f7;
+}
+
+#spread {
+  padding: 60px 0 0 60px;
+}
+
+#icon {
+  box-shadow: 1px 1px 15px #000, 1px 1px 15px #000;
+}
+
+.box {
+  border: 1px solid #000;
+  width: 50%;
+  padding: 0 0 30vh 0;
+}
+
+.container {
+  padding-top: 11vh;
+  padding-left: 10vh;
+  justify-items: left;
+  vertical-align: middle;
+}
+
+/* Please make the maximizable set to false!! (note for @devonk15)*/

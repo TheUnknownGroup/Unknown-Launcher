@@ -15,9 +15,9 @@
       {
         "title": "UKMCL",
         "width": 950,
-        "height": 550,
-        "minHeight": 500,
-        "minWidth": 900
+        "height": 530,
+        "resizable": false,
+        "center": true
       }
     ],
     "security": {
