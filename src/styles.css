@@ -70,11 +70,9 @@ body {
   box-shadow: 1px 1px 10px rgb(18, 14, 14);
 }
 
-
 .container {
   padding-top: 3vh;
   padding-left: 10vh;
-  justify-items: left;
   vertical-align: middle;
 }
 
