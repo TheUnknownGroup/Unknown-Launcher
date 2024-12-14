@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "tauri": "tauri",
     "start": "tauri dev",
-    "app:build": "tauri build"
+    "WNbuild": "tauri build",
+    "iOSbuildsili": "tauri build --target aarch64-apple-darwin",
+    "iOSbuildintel": "tauri build --target x86_64-apple-darwin",
+    "iOSbuilduni": "tauri build --target universal-apple-darwin"
   },
   "dependencies": {
     "@tauri-apps/api": "^2",
