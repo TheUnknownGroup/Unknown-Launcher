@@ -1,6 +1,6 @@
 [package]
 name = "UKMCL"
-version = "0.0.0"
+version = "0.0.1"
 description = "This is the official Minecraft Launcher for the Unknown Group."
 authors = ["The Unknown Group"]
 edition = "2021"
