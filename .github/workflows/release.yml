@@ -59,7 +59,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: '' # the action automatically replaces \_\_VERSION\_\_ with the app version.
+          tagName: .
           releaseName: 'UKMCL - Experimental v__VERSION__'
           releaseBody: 'This is another experimental version of our launcher UKMCL. This version includes a login & signup screen.'
           releaseDraft: true
