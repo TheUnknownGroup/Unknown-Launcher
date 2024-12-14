@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-#blu {
+#blu, #bl {
   background-size: cover;
   background: rgba(0, 0, 0, 20%) url("./assets/background.png") no-repeat;
   color: #dee3f7;
@@ -69,7 +69,6 @@ body {
   background-color: rgba(34, 33, 33, 50%);
   box-shadow: 1px 1px 10px rgb(18, 14, 14);
 }
-
 
 .container {
   padding-top: 3vh;
