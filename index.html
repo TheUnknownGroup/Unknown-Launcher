@@ -25,33 +25,12 @@
         <p id="welcome" class="lexend-reg center">Welcome to <strong>UKMCL!</strong></p>
         <p id="q1" class="lexend-reg center">Do you want to sign in or sign up?</p>
         <div class="center lexend-reg prevent">
-          <a id="y" onclick="y()">Sign in</a>
+          <a id="y">Sign in</a>
           <span id="spread"></span>
-          <a id="n" onclick="n()">Sign up</a>
+          <a id="n">Sign up</a>
         </div>
       </div>
     </div>
-
-    <div class="temp">
-      <p id="temp"></p>
-    </div>
-<!--    <script type="module" src="main.ts"></script>-->
-    <script>
-      function y() {
-        console.log("y, is clicked!");
-        let tem = document.getElementById("temp");
-
-        tem.innerText = "y, is clicked!"
-        // location.href="./src/html/login.html"
-      }
-
-      function n() {
-        console.log("n, is clicked!");
-        let tem = document.getElementById("temp");
-        
-        tem.innerText = "n, is clicked!"
-        // location.href="/src/html/signup.html"
-      }
-    </script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
