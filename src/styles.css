@@ -99,3 +99,10 @@ body {
   clear: both;
   display: table;
 }
+
+.temp {
+  float: right;
+  background: #000;
+  width: 100px;
+  height: 100px;
+}

@@ -31,16 +31,27 @@
         </div>
       </div>
     </div>
-    <script type="module" src="main.ts"></script>
 
-  <script>
-    function y() {
-      location.href="./src/html/login.html"
-    }
+    <div class="temp">
+      <p id="temp"></p>
+    </div>
+<!--    <script type="module" src="main.ts"></script>-->
+    <script>
+      function y() {
+        console.log("y, is clicked!");
+        let tem = document.getElementById("temp");
 
-    function n() {
-      location.href="/src/html/signup.html"
-    }
-  </script>
+        tem.innerText = "y, is clicked!"
+        // location.href="./src/html/login.html"
+      }
+
+      function n() {
+        console.log("n, is clicked!");
+        let tem = document.getElementById("temp");
+        
+        tem.innerText = "n, is clicked!"
+        // location.href="/src/html/signup.html"
+      }
+    </script>
   </body>
 </html>
