@@ -7,12 +7,14 @@
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "npm run build",
-    "frontendDist": "../dist"
+    "frontendDist": "../dist",
+    "distDir": "../dist"
   },
   "app": {
     "withGlobalTauri": true,
     "windows": [
       {
+        "label": "index",
         "title": "UKMCL",
         "width": 950,
         "height": 530,
@@ -28,6 +30,12 @@
   "bundle": {
     "active": true,
     "targets": "all",
+    "resources": [
+      "dist/login.html",
+      "dist/signup.html",
+      "dist/main.ts",
+      "dist/**/*"
+    ],
     "icon": [
       "icons/32x32.rgba",
       "icons/128x128.png",
