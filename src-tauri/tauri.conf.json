@@ -30,10 +30,7 @@
     "active": true,
     "targets": "all",
     "resources": [
-      "src/login.html",
-      "src/signup.html",
-      "src/main.ts",
-      "src/**/*"
+      "../src/**/*"
     ],
     "icon": [
       "icons/32x32.rgba",
