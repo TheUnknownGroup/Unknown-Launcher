@@ -25,12 +25,22 @@
         <p id="welcome" class="lexend-reg center">Welcome to <strong>UKMCL!</strong></p>
         <p id="q1" class="lexend-reg center">Do you want to sign in or sign up?</p>
         <div class="center lexend-reg prevent">
-          <a id="y">Sign in</a>
+          <a id="y" onclick="y()">Sign in</a>
           <span id="spread"></span>
-          <a id="n">Sign up</a>
+          <a id="n" onclick="n()">Sign up</a>
         </div>
       </div>
     </div>
     <script type="module" src="main.ts"></script>
+
+  <script>
+    function y() {
+      location.href="./src/html/login.html"
+    }
+
+    function n() {
+      location.href="/src/html/signup.html"
+    }
+  </script>
   </body>
 </html>
